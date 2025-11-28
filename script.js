@@ -161,7 +161,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 for (let i = 0; i < bufferLength; i++) sum += dataArray[i];
                 let average = sum / bufferLength;
 
-                if (average > 90) { // Increased threshold for realistic blow
+                if (average > 60) { // Increased threshold for realistic blow
                     blowOutCandle();
                 } else {
                     requestAnimationFrame(detectBlow);
