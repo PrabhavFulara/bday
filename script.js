@@ -195,7 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Play Happy Birthday Song
         if (bgMusic) {
             bgMusic.currentTime = 0;
-            bgMusic.volume = 0.5;
+            bgMusic.volume = 0.3;
             bgMusic.play().catch(e => console.log("Audio blocked", e));
         }
 
